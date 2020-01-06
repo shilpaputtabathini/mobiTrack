@@ -1,0 +1,121 @@
+@import "../../../styles.scss";
+@import '../../../assets/css/fonts.scss';
+// .main {
+//   height: 452px;
+//   background: url("../../../assets/images/pre.png") 0% 0% no-repeat padding-box;
+//   background-size: cover;
+// }
+// .t-l-50 {
+//   top: 25%;
+//   right: 10%;
+// }
+// .font-size-48 {
+//   font-size: 48px;
+//   color: $color-white;
+//   font-weight: 600;
+// }
+// .font-size-36 {
+//   font-size: 36px;
+//   color: $color-white;
+//   font-weight: 500;
+// }
+// .m-b-0 {
+//   margin-bottom: 0px !important;
+// }
+// .m-b-2 {
+//   margin-bottom: 02rem !important;
+// }
+// .h-15 {
+//   height: 15px;
+// }
+.homepageBanner {
+  position: relative;
+  height: 500px;
+  background: url("../../../assets/images/pre.png") 0% 0% no-repeat padding-box;
+  background-size: cover;
+  .homepageInner {
+    position: absolute;
+      top: 26%;
+      right: 10%;
+      bottom: 50%;
+      margin: auto;
+  }
+}
+
+//about us styles
+.bgColor {
+    width: 55%;
+    min-height: 455px;
+    background: transparent linear-gradient(180deg, #0383CD 0%, #0453B0 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    position: relative;
+    height: 400px;
+
+      img {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        bottom: 50%;
+        margin: auto;
+      }
+}
+
+.watermarkTitle {
+  color: rgba(247, 247, 247, 0.6705882352941176);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 110px;
+}
+
+.appStores {
+    background: transparent linear-gradient(89deg, #0361B8 0%, #0361B8 36%, #02315C 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    padding: 60px 0px;
+
+      .appIcons { 
+        height: 42px;
+        padding: 0 20px;
+        margin: 5px auto;
+      }
+}
+// Get in touch styles
+.getTouchMain {
+  background: url('../../../assets/images/getInTouch.png');
+  background-size:cover;
+  background-blend-mode: multiply;
+  height: 450px;
+  position: relative;
+
+    .getInTouchTitle {
+      font-family: Regular 48px/72px $font-family-brand;
+      letter-spacing: -0.68px;
+      color: $color-white;
+      opacity: 1;
+      position: relative;
+
+        span {
+          position: absolute;
+          top: 48px;
+          right: 0;
+          width: 36px;
+          height: 6px;
+          background: transparent linear-gradient(272deg, #054CAD 0%, #028AD1 100%) 0% 0% no-repeat padding-box;
+          border-radius: 33px;
+          opacity: 1;
+        }
+    }
+}
+
+.btn-submit {
+  text-align: left;
+  background: transparent linear-gradient(180deg, #038AD2 0%, #054BAC 100%) 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+}
+.btn-submit > img {
+  float: right;
+  padding-top: 6px;
+}

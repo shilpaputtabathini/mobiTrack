@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './assets/css/fonts.scss';
+//content part starts
+
+$color-white : #fff; 
+$color-grey : #A1A1A1; 
+.color-white { color: #fff; }
+.contentPart { padding-top: 75px; }
+.p-right10px { padding-right: 10px; }
+.nopadding {
+    padding: 0;
+    margin: 0;
+}
+.p-tb40 { 
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.m-btm40 { margin-bottom: 40px; }
+.color-grey { 
+    color: $color-grey;
+    font: Regular 18px/27px $font-family-brand;
+    letter-spacing: -0.25px;
+    font-size: 18px;
+    text-align: justify;
+}
+.color-fff { 
+    color: $color-white;
+    font-family: Regular 48px/72px $font-family-brand;
+    letter-spacing: -0.85px;
+}
+// vertical align center modal 
+.modal.show  {
+    display:flex!important;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+    align-items: flex-start;
+  }
